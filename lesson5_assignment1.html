@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Boostrap Online Course</title>
+    <meta name="viewport" content="width">
+    <!--Download-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <!--CDN-->
+    <!--
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+    -->
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top">
+            <div class="container">
+            <a class="navbar-brand"><img src="flower.jpg" width="80px" height="50px"></a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mymenu"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="mymenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-home mx-2 fahome"></i>Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                    <li class="nav-item dropdown"><a  class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                        Our Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item">S</a></li>
+                            <li><a class="dropdown-item">S</a></li>
+                            <li><a class="dropdown-item">S</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                </div>
+                <div class="d-none d-sm-block justify-content-end">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="#" class="nav-link">Register</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mymodal">SignIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div>
+
+        </div>
+
+        <div>
+
+        </div>
+
+        <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="mymodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-center">
+      <div class="modal-content">
+
+        <div class="modal-header justify-content-start">
+          <h5 class="modal-title" id="exampleModalLabel">Basic Modal</h5>
+          <button type="button" class="btn-close btn btn-primary" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body">
+
+           <!-- <img src="bagan.jpg" width="450px" height="200px" > -->
+        <div class="carousel slide" data-bs-ride="carousel" id="myslider">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#myslider" data-bs-slide="0" active></li>
+                <li data-bs-target="#myslider" data-bs-slide="1"></li>
+                <li data-bs-target="#myslider" data-bs-slide="2"></li>
+                <li data-bs-target="#myslider" data-bs-slide="3"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="bagan.jpg" class="d-block w-100" height="300px">
+                    <div class="carousel-caption">
+                        <h2>Bagan</h2>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="shwedagon.jpg" class="d-block w-100" height="300px">
+                    <div class="carousel-caption">
+                        <h2>Shwedagone</h2>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="kaunghmudaw.jpg" class="d-block w-100" height="300px">
+                    <div class="carousel-caption">
+                        <h2>Kaunghmudaw</h2>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="mingun.jpg" class="d-block w-100" height="300px">
+                    <div class="carousel-caption">
+                        <h2>Mingun</h2>
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#myslider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myslider" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+          
+        </div>
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+          
+
+     
+    </body>
+</html>
